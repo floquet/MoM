@@ -1,0 +1,73 @@
+tarting program: /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/MMViz_4.1.12 repaired-mesh.geo.4112.rtg
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffee76c700 (LWP 892759)]
+Line: 0 x: 0.000000 y: 0.000000
+Line: 0 x: 0.000000 y: 3.000000
+Line: 1 x: 0.000000 y: 3.000000
+Line: 1 x: 10.000000 y: 3.000000
+Line: 1 x: 20.000000 y: 3.000000
+Line: 1 x: 30.000000 y: 3.000000
+Line: 1 x: 40.000000 y: 3.000000
+Line: 1 x: 50.000000 y: 3.000000
+Line: 1 x: 60.000000 y: 3.000000
+Line: 2 x: 60.000000 y: 3.000000
+Line: 2 x: 60.000000 y: 0.000000
+Boundary Line:
+Boundary Conditions:
+     *********************************************************************
+     ***  WARNING: In Model Points
+     ***           , Sheet Part
+     ***           , nFacets =            8, file might not be written to facet spec.
+     *********************************************************************
+     *********************************************************************
+     ***  WARNING: In Model Points
+     ***           , Sheet Part
+     ***           , nFacets =           96, file might not be written to facet spec.
+     *********************************************************************
+     *********************************************************************
+     ***  WARNING: In Model Points
+     ***           , Sheet Part
+     ***           , nFacets =            8, file might not be written to facet spec.
+     *********************************************************************
+
+Thread 1 "MMViz_4.1.12" received signal SIGSEGV, Segmentation fault.
+0x000000000042730b in vector_and_utility_module_mp_real_vector_norm_.A ()
+(gdb) backtrace
+#0  0x000000000042730b in vector_and_utility_module_mp_real_vector_norm_.A ()
+#1  0x0000000000545b78 in sie_geometry_module_mp_sie_geometry_tri_compute_.A ()
+#2  0x0000000000643b1d in mmviz_geometry_module_mp_readgeometry_.A ()
+#3  0x0000000000746e37 in MMViz::loadFile(QString const&) ()
+#4  0x0000000000757004 in MMViz::qt_metacall(QMetaObject::Call, int, void**) ()
+#5  0x00007ffff24e7f3b in QMetaObject::activate(QObject*, int, int, void**) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#6  0x00000000007567c4 in currentUI::loadFile(QString) ()
+#7  0x00000000006a9dbd in currentUI::createGeometry() ()
+#8  0x0000000000756428 in currentUI::qt_metacall(QMetaObject::Call, int, void**) ()
+#9  0x00007ffff24e7f3b in QMetaObject::activate(QObject*, int, int, void**) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#10 0x00007ffff30d2fc9 in QAbstractButtonPrivate::click() ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#11 0x00007ffff30d318b in QAbstractButton::mouseReleaseEvent(QMouseEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#12 0x00007ffff2ebec2f in QWidget::event(QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#13 0x00007ffff2e8c599 in QApplicationPrivate::notify_helper(QObject*, QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#14 0x00007ffff2e8bef8 in QApplication::notify(QObject*, QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#15 0x00007ffff2ed3095 in QETWidget::translateMouseEvent(_XEvent const*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#16 0x00007ffff2ecc60f in QApplication::x11ProcessEvent(_XEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#17 0x00007ffff2ee4e45 in QEventDispatcherX11::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#18 0x00007ffff24d4be7 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#19 0x00007ffff24d4d17 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#20 0x00007ffff24d82cd in QCoreApplication::exec() ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+--Type <RET> for more, q to quit, c to continue without paging--
+#21 0x0000000000720479 in main ()
+

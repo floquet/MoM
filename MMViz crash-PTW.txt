@@ -1,0 +1,296 @@
+dantopa@dtopa-latitude-5491:bin $ ldd MMViz_4.1.12 
+	linux-vdso.so.1 (0x00007ffe976a3000)
+	libifcore.so.5 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libifcore.so.5 (0x00007f213e23d000)
+	libifport.so.5 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libifport.so.5 (0x00007f213e010000)
+	libmkl_intel_lp64.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libmkl_intel_lp64.so (0x00007f213d6fd000)
+	libmkl_intel_thread.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libmkl_intel_thread.so (0x00007f213c362000)
+	libmkl_core.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libmkl_core.so (0x00007f213a809000)
+	libiomp5.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libiomp5.so (0x00007f213a4d2000)
+	libimf.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libimf.so (0x00007f213a017000)
+	libintlc.so.5 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libintlc.so.5 (0x00007f2139dbc000)
+	libQtOpenGL.so.4 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtOpenGL.so.4 (0x00007f2139b86000)
+	libQtGui.so.4 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4 (0x00007f21392a0000)
+	libSM.so.6 => /lib/x86_64-linux-gnu/libSM.so.6 (0x00007f2139271000)
+	libICE.so.6 => /lib/x86_64-linux-gnu/libICE.so.6 (0x00007f2139251000)
+	libXi.so.6 => /lib/x86_64-linux-gnu/libXi.so.6 (0x00007f213923f000)
+	libXrender.so.1 => /lib/x86_64-linux-gnu/libXrender.so.1 (0x00007f2139035000)
+	libXrandr.so.2 => /lib/x86_64-linux-gnu/libXrandr.so.2 (0x00007f2139028000)
+	libXcursor.so.1 => /lib/x86_64-linux-gnu/libXcursor.so.1 (0x00007f213901b000)
+	libXinerama.so.1 => /lib/x86_64-linux-gnu/libXinerama.so.1 (0x00007f2139016000)
+	libfreetype.so.6 => /lib/x86_64-linux-gnu/libfreetype.so.6 (0x00007f2138f55000)
+	libfontconfig.so.1 => /lib/x86_64-linux-gnu/libfontconfig.so.1 (0x00007f2138f0f000)
+	libXext.so.6 => /lib/x86_64-linux-gnu/libXext.so.6 (0x00007f2138efa000)
+	libX11.so.6 => /lib/x86_64-linux-gnu/libX11.so.6 (0x00007f2138dbc000)
+	libQtCore.so.4 => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4 (0x00007f2138977000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f2138828000)
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f2138820000)
+	libGLU.so.1 => /lib/x86_64-linux-gnu/libGLU.so.1 (0x00007f21387ae000)
+	libGL.so.1 => /lib/x86_64-linux-gnu/libGL.so.1 (0x00007f2138726000)
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f2138703000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f2138515000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f21384fa000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f2138307000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f213e574000)
+	libsvml.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libsvml.so (0x00007f2137429000)
+	libirng.so => /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libirng.so (0x00007f2137222000)
+	libuuid.so.1 => /lib/x86_64-linux-gnu/libuuid.so.1 (0x00007f2137219000)
+	libbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007f21371ff000)
+	libXfixes.so.3 => /lib/x86_64-linux-gnu/libXfixes.so.3 (0x00007f2136ff7000)
+	libpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x00007f2136fbf000)
+	libz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007f2136fa3000)
+	libexpat.so.1 => /lib/x86_64-linux-gnu/libexpat.so.1 (0x00007f2136f75000)
+	libxcb.so.1 => /lib/x86_64-linux-gnu/libxcb.so.1 (0x00007f2136f4b000)
+	libGLdispatch.so.0 => /lib/x86_64-linux-gnu/libGLdispatch.so.0 (0x00007f2136e91000)
+	libGLX.so.0 => /lib/x86_64-linux-gnu/libGLX.so.0 (0x00007f2136e5d000)
+	libXau.so.6 => /lib/x86_64-linux-gnu/libXau.so.6 (0x00007f2136e57000)
+	libXdmcp.so.6 => /lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007f2136e4f000)
+dantopa@dtopa-latitude-5491:bin $ lss *.geo
+-rwxr--r-- 1 dantopa dantopa 1.3K Feb 13 15:01 arXivePill.geo
+-rw-r--r-- 1 dantopa dantopa 1019 Feb 14 14:12 bonito-19.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 LinearVIE_Pill.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 LinearVIE_Pill_v328.geo
+-rw-r--r-- 1 dantopa dantopa 1.7K Feb 19 12:09 Netgen-coarse-repaired.geo
+-rwxr--r-- 1 dantopa dantopa  849 Feb 13 15:10 Pill.geo
+-rwxr--r-- 1 dantopa dantopa 1.3K Dec 28 15:12 Pill_v328.geo
+-rw-r--r-- 1 dantopa dantopa 1.7K Jan  2 11:37 PTW.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 RadialVIE_Pill.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 RadialVIE_Pill_v328.geo
+-rw-r--r-- 1 dantopa dantopa 1.7K Feb 18 16:00 repaired-mesh.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 SegmentedVIE_Pill.geo
+-rwxr--r-- 1 dantopa dantopa 1.4K Dec 28 15:12 SegmentedVIE_Pill_v328.geo
+-rwxr--r-- 1 dantopa dantopa 1.7K Feb 13 12:51 sphereCourse.geo
+-rwxr--r-- 1 dantopa dantopa 1.7K Feb 12 13:13 sphereFine.geo
+-rwxr--r-- 1 dantopa dantopa 1.7K Feb 12 13:13 sphereSuperFine.geo
+-rw-r--r-- 1 dantopa dantopa 1.7K Feb 17 22:58 standard-B.geo
+-rw-r--r-- 1 dantopa dantopa 1.6K Feb 19 12:00 Surface-coarse-repaired.geo
+-rw-r--r-- 1 dantopa dantopa 1.7K Feb 19 12:42 Surface-fine-repaired.geo
+dantopa@dtopa-latitude-5491:bin $ ./MMViz_4.1.12 PTW.geo
+ 
+ Opening and Reading Input Geometry File : 
+ 
+      PTW.geo
+ 
+ 
+---| Run Date: February  20, 2020;    Time: 08:23:30
+ 
+ MM SIE VIE
+ 
+ Version: 4.1.12
+
+=================================================================================
+
+MERCURY MOM
+
+Protected Under U.S. Pat. No's: 7,742,886; 7,844,407; 8,209,138; 8,725,464
+
+Copyrighted
+
+MATRIX COMPRESSION TECHNOLOGIES, LLC
+
+Licensing Information:
+
+John Shaeffer
+3278 Hunterdon Way
+Marietta, Georgia 30067
+
+john@shaeffer.com
+770.952.3678
+
+Copyright 2006 Matrix Compression Technologies, LLC.
+
+This software was developed under NASA Contracts NAS1-02057, NAS1-02117,
+NNL08AA00B, and NNL13AA08B, and the U.S. Government retains certain rights.
+
+The Government, and others acting on its behalf, retain a paid-up, nonexclusive,
+irrevocable, worldwide license to reproduce, prepare derivative works, and
+perform publicly and display publicly (but not to distribute copies to the
+public) by or on behalf of the Government, without any obligation of
+confidentiality on the part of the U.S. Government. Such license extends to use
+by NASA contractors,and others working under agreements with the U.S. Government;
+provided that use of the software shall not be allowed to any person or entity
+where such use is not in direct performance of a contract with the United States;
+and provided that such use is not for internal research and development by the
+contractor or others that is not directly funded by the United States.
+
+=================================================================================
+ 
+                   ---|  File down to KeyWord = Geometry |---
+ 
+ PTW
+ 
+ !Mercury MoM input file, VIE/SIE Version 4.x compatible (VIE/Dual Sided SIE)
+ 
+ &MM_MOM
+ bUseACA = .TRUE.,
+ bSolve_ACA = .TRUE.,
+ bOutOfCore = .TRUE.,
+ bNormalizeToWaveLength = .FALSE.,
+ bNormalize             = .FALSE.,
+ dCloseLambda  = 0.100000,
+ ACA_Factor_Tol = 0.000010,
+ ACA_RHS_Tol = 0.000100,
+ Point_Tolerance = 0.001000,
+ nLargestBlockSize = -1,
+ MemorySize_GB = -1.000000,
+ stackSize_GB = -1.000000,
+ nFillThreads = -1,
+ nFillMKLThreads = 1,
+ nLUThreads = -1,
+ nLUMKLThreads = 1,
+ nRHSThreads = 1,
+ nRHSMKLThreads = 1,
+ bOutputACAGrouping     = .FALSE.,
+ bOutputRankFraction    = .FALSE.,
+ bLimitLUColumns        = .FALSE.,
+ Lop_Admissibility = WEAK,
+ Kop_Admissibility = CLOSE
+ /
+ 
+ &Scratch_Memory
+ Scratch_RankFraction_Z     = 0.300000,
+ Scratch_RankFraction_LU    = 0.600000,
+ Scratch_RankFraction_RHS   = 0.500000,
+ Scratch_RankFraction_Solve = 1.000000,
+ MemoryFraction_Z           = 0.950000,
+ MemoryFraction_Scratch_LU  = 0.500000,
+ MemoryFraction_LU          = 1.000000,
+ MemoryFraction_RHS         = 0.500000,
+ MemoryFraction_Solve       = 0.900000,
+ /
+ 
+ &QUADRATURE
+ NTRISELF    = 7,
+ NTRINEAR    = 3,
+ NTRIFAR     = 3,
+ NTETSELF    = 11,
+ NTETNEAR    = 4,
+ NTETFAR     = 4,
+ NQGAUSS  = 4,
+ /
+ 
+ FREQUENCY
+ ghz
+ 0.003000  0.030000  28   !Freq Start, Freq Stop, Number of Frequencies
+ 
+ Excitation
+ MONOSTATIC
+ 
+ Angle Cut
+ 1
+ 0.000000  360.000000  361
+ AZIMUTH
+ 90.000000
+ 
+ Boundary Conditions
+ Materials.lib
+ 4
+ V_FREE_SPACE => Free_Space
+ V_PEC => PEC
+ V_PMC => PMC
+ V_NULL => NULL
+ 1
+ 0 BC_PEC V_FREE_SPACE
+ 
+ SIE
+ PTW.facet
+ mm
+ 
+ Geometry_End
+ 
+                      ---| End Of Copied Input Data |---
+--------------------------------------------------------------------------------
+ 
+--------------------------------------------------------------------------------
+ 
+ Geometry Title : 
+ 
+      PTW
+ 
+--------------------------------------------------------------------------------
+                  ---| Reading Input Boundary Conditions |---
+
+                ---| Boundary Conditions Sucessfully Read |---
+--------------------------------------------------------------------------------
+                           ---| Name List Data |---
+
+________________________________________________________________________________
+
+                      ---| Creating Surface coupling |---
+
+
+---| Using Riverside Research algorithm based character string sort approach.
+
+     Checking for duplicate Nodes within  0.9993082E-01, tightest is 1E-9
+
+     Note: If seg fault here, may be due to single precision.
+           Try loosening the POINT_TOLERANCE from 1E-9.
+     Tolerance is in Integer Powers of 10: Significant Digits =           1
+     Number of Nodes in File:         345
+     No colocated nodes found.
+
+Segmentation fault (core dumped)
+dantopa@dtopa-latitude-5491:bin $ gdb -ex bt ./MMViz_4.1.12 core
+GNU gdb (Ubuntu 9.0.90.20200105-0ubuntu1) 9.0.90.20200105-git
+Copyright (C) 2019 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from ./MMViz_4.1.12...
+(No debugging symbols found in ./MMViz_4.1.12)
+[New LWP 1885649]
+[New LWP 1885710]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Core was generated by `./MMViz_4.1.12'.
+Program terminated with signal SIGSEGV, Segmentation fault.
+#0  0x000000000042730b in vector_and_utility_module_mp_real_vector_norm_.A ()
+[Current thread is 1 (Thread 0x7f4673884e00 (LWP 1885649))]
+#0  0x000000000042730b in vector_and_utility_module_mp_real_vector_norm_.A ()
+#1  0x0000000000545b78 in sie_geometry_module_mp_sie_geometry_tri_compute_.A ()
+#2  0x0000000000643b1d in mmviz_geometry_module_mp_readgeometry_.A ()
+#3  0x0000000000746e37 in MMViz::loadFile(QString const&) ()
+#4  0x0000000000757004 in MMViz::qt_metacall(QMetaObject::Call, int, void**) ()
+#5  0x00007f46754c8f3b in QMetaObject::activate(QObject*, int, int, void**) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#6  0x00000000007567c4 in currentUI::loadFile(QString) ()
+#7  0x00000000006a9dbd in currentUI::createGeometry() ()
+--Type <RET> for more, q to quit, c to continue without paging--
+#8  0x0000000000756428 in currentUI::qt_metacall(QMetaObject::Call, int, void**) ()
+#9  0x00007f46754c8f3b in QMetaObject::activate(QObject*, int, int, void**) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#10 0x00007f46760b3fc9 in QAbstractButtonPrivate::click() ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#11 0x00007f46760b418b in QAbstractButton::mouseReleaseEvent(QMouseEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#12 0x00007f4675e9fc2f in QWidget::event(QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#13 0x00007f4675e6d599 in QApplicationPrivate::notify_helper(QObject*, QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#14 0x00007f4675e6cef8 in QApplication::notify(QObject*, QEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#15 0x00007f4675eb4095 in QETWidget::translateMouseEvent(_XEvent const*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#16 0x00007f4675ead60f in QApplication::x11ProcessEvent(_XEvent*) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#17 0x00007f4675ec5e45 in QEventDispatcherX11::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtGui.so.4
+#18 0x00007f46754b5be7 in QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#19 0x00007f46754b5d17 in QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#20 0x00007f46754b92cd in QCoreApplication::exec() ()
+   from /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/libQtCore.so.4
+#21 0x0000000000720479 in main ()
+(gdb) 
+(gdb) 
+

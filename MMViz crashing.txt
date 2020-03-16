@@ -1,0 +1,35 @@
+(gdb) run
+Starting program: /home/dantopa/Dropbox/2nd-generation/RCS-project/4.1.12/Linux64/bin/MMViz_4.1.12 
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+[New Thread 0x7fffee76c700 (LWP 733036)]
+forrtl: severe (41): insufficient virtual memory
+Image              PC                Routine            Line        Source             
+libifcore.so.5     00007FFFF7D255D8  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000512D77  Unknown               Unknown  Unknown
+MMViz_4.1.12       000000000051EA39  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000577197  Unknown               Unknown  Unknown
+MMViz_4.1.12       000000000063C161  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000746883  Unknown               Unknown  Unknown
+MMViz_4.1.12       000000000074C52D  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000756FE2  Unknown               Unknown  Unknown
+libQtCore.so.4     00007FFFF24E7F3B  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2E82EC4  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2E82FA2  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF3121B50  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2EBEC2F  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF3125155  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2E8C599  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2E8BEF8  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2ED33D9  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2ECC60F  Unknown               Unknown  Unknown
+libQtGui.so.4      00007FFFF2EE4E45  Unknown               Unknown  Unknown
+libQtCore.so.4     00007FFFF24D4BE7  Unknown               Unknown  Unknown
+libQtCore.so.4     00007FFFF24D4D17  Unknown               Unknown  Unknown
+libQtCore.so.4     00007FFFF24D82CD  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000720479  Unknown               Unknown  Unknown
+libc.so.6          00007FFFF1D881E3  Unknown               Unknown  Unknown
+MMViz_4.1.12       0000000000415C69  Unknown               Unknown  Unknown
+[Thread 0x7fffee76c700 (LWP 733036) exited]
+[Inferior 1 (process 732302) exited with code 051]
+
